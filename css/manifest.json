@@ -1,0 +1,34 @@
+<do
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/plh.jpg" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="/images/plh.jpg" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>PLH - Full Stack Developer</title>
+    <meta name="description" content="Hello, I'm PLH, a Full Stack.">
+    <meta name="keywords"
+        content="PLH, Mobile App Developer, Full Stack Developer, Flutter Developer, Cambodia, Flutter Cambodia, Mobile Applications, plh, Full Stack Development">
+    <meta name="author" content="PLH">
+    <meta property="og:title" content="PLH - Full Stack Developer">
+    <meta property="og:description" content="Hello, I'm PLH, a Full Stack.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/LIHOV888/test_2/4bf9d990522350577c96060381840d4ab027fb46/image/icon.jpg">
+    <meta property="og:url" content="https://raw.githubusercontent.com/LIHOV888/test_2/4bf9d990522350577c96060381840d4ab027fb46/image/icon.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PLH - Full Stack Developer">
+    <meta name="twitter:description" content="Hello, I'm PLH, a Full Stack.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/LIHOV888/test_2/4bf9d990522350577c96060381840d4ab027fb46/image/icon.jpg">
+    <meta name="twitter:url" content="https://plh.vercel.app">
+    <script defer="defer" src="js/main.7c451a42.js"></script>
+    <link href="css/main.bf538fe7.css" rel="stylesheet">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+</body>
+
+</html>

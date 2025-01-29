@@ -1,0 +1,149 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: "Montserrat", sans-serif; /* Use Montserrat for the main body text */
+  margin: 0 !important;
+  padding: 0;
+  background-color: #0f111a; /* Optional background color */
+  color: #ffffff; /* Optional text color */
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar Styling for WebKit Browsers (e.g., Chrome, Edge) */
+::-webkit-scrollbar {
+  height: 8px; /* Adjust height for horizontal scrollbar */
+  width: 4px; /* Adjust width for vertical scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #222a35; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #575c66; /* Thumb color */
+  border-radius: 6px; /* Rounded edges for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #626970; /* Thumb color on hover */
+}
+
+/* Scrollbar Styling for Firefox */
+html {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #575c66 #222a35; /* Thumb and track color */
+}
+
+/* Typography and Section Styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff; /* Headings color */
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #cccccc; /* Paragraph text color */
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #00c6ff; /* Link color */
+}
+
+a:hover {
+  color: #00e7ff; /* Hover color for links */
+}
+
+/* Button Styling */
+button,
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #00c6ff; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #00e7ff; /* Hover effect */
+}
+
+/* Hero Section (Optional for your reference) */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(145deg, #11141f, #0f111a);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #cccccc;
+  margin: 10px 0 20px;
+}
+
+.hero .btn {
+  margin-top: 20px;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #11141f;
+  color: #cccccc;
+  font-size: 14px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button,
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
