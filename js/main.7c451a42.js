@@ -24736,7 +24736,7 @@ margin-top: 20px;
             school: "Polytechnic Institute of Kampong Thom Province",
             date: "Jan 2024 - Jan 2025",
             grade: "50%",
-            desc: "I am currently studying Computer Science and Engineering at Polytechnic Institute of Kampong Thom Province. During my studies, I completed extensive courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Networks, and Computer Networks, among other programs.",
+            desc: "I am currently studying Computer Science and Engineering at Polytechnic Institute of Kampong Thom Province. During my studies, I completed extensive courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Networks, and Computer Networks, and other programs.",
             degree: "Computer Science",
           },
           // {
