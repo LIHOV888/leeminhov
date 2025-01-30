@@ -24703,7 +24703,7 @@ margin-top: 20px;
           {
             id: 3,
             img: "https://raw.githubusercontent.com/LIHOV888/test_2/4bf9d990522350577c96060381840d4ab027fb46/image/icon.jpg",
-            role: "Full Stack Copy In AI Chat GPT",
+            role: "Full Stack Copy & Past",
             company: "",
             date: "Jan 2024 - Jan 2025",
             desc: "I Learning build Mobile App, Web, Backend, Frontend, UX/UI, Database, Flutter and More Programming.",
