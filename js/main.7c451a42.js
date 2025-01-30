@@ -24735,8 +24735,8 @@ margin-top: 20px;
             img: "https://raw.githubusercontent.com/LIHOV888/git_1/refs/heads/master/images/PIKT.png",
             school: "Polytechnic Institute of Kampong Thom Province",
             date: "Jan 2024 - Jan 2025",
-            grade: "50%",
-            desc: "I am currently studying Computer Science and Engineering at Kampong Thom Provincial Polytechnic Institute. During my studies, I completed extensive courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Networks, and Computer Networks, among other programs.",
+            rate: "50%",
+            desc: "I am currently studying Computer Science and Engineering at Polytechnic Institute of Kampong Thom Province. During my studies, I completed extensive courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Networks, and Computer Networks, among other programs.",
             degree: "Computer Science",
           },
           // {
