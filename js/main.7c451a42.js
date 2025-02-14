@@ -19512,7 +19512,7 @@
                       REACT_APP_VERCEL_GIT_PULL_REQUEST_ID: "",
                       REACT_APP_VERCEL_BRANCH_URL:
                         "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
-                      REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
+                      REACT_APP_VERCEL__COMMIT_MESSAGE: "update",
                       REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
                       REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                     }.SC_DISABLE_SPEEDY)
