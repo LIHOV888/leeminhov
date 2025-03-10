@@ -19205,7 +19205,7 @@
                 REACT_APP_VERCEL_BRANCH_URL:
                   "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                 REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                REACT_APP_VERCEL_GIT_REPO_ID: "",
                 REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
               } &&
             ({
@@ -19231,7 +19231,7 @@
               REACT_APP_VERCEL_BRANCH_URL:
                 "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
               REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-              REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+              REACT_APP_VERCEL_GIT_REPO_ID: "",
               REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
             }.REACT_APP_SC_ATTR ||
               {
@@ -19257,7 +19257,7 @@
                 REACT_APP_VERCEL_BRANCH_URL:
                   "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                 REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                REACT_APP_VERCEL_GIT_REPO_ID: "",
                 REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
               }.SC_ATTR)) ||
           "data-styled",
@@ -19291,7 +19291,7 @@
                     REACT_APP_VERCEL_BRANCH_URL:
                       "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                     REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                    REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                    REACT_APP_VERCEL_GIT_REPO_ID: "",
                     REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                   } &&
                 (void 0 !==
@@ -19319,7 +19319,7 @@
                     REACT_APP_VERCEL_BRANCH_URL:
                       "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                     REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                    REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                    REACT_APP_VERCEL_GIT_REPO_ID: "",
                     REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                   }.REACT_APP_SC_DISABLE_SPEEDY &&
                 "" !==
@@ -19347,7 +19347,7 @@
                     REACT_APP_VERCEL_BRANCH_URL:
                       "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                     REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                    REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                    REACT_APP_VERCEL_GIT_REPO_ID: "",
                     REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                   }.REACT_APP_SC_DISABLE_SPEEDY
                   ? "false" !==
@@ -19375,7 +19375,7 @@
                         REACT_APP_VERCEL_BRANCH_URL:
                           "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                         REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                        REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                        REACT_APP_VERCEL_GIT_REPO_ID: "",
                         REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                       }.REACT_APP_SC_DISABLE_SPEEDY &&
                     {
@@ -19402,7 +19402,7 @@
                       REACT_APP_VERCEL_BRANCH_URL:
                         "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                       REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                      REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                      REACT_APP_VERCEL_GIT_REPO_ID: "",
                       REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                     }.REACT_APP_SC_DISABLE_SPEEDY
                   : void 0 !==
@@ -19430,7 +19430,7 @@
                         REACT_APP_VERCEL_BRANCH_URL:
                           "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                         REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                        REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                        REACT_APP_VERCEL_GIT_REPO_ID: "",
                         REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                       }.SC_DISABLE_SPEEDY &&
                     "" !==
@@ -19458,7 +19458,7 @@
                         REACT_APP_VERCEL_BRANCH_URL:
                           "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                         REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                        REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                        REACT_APP_VERCEL_GIT_REPO_ID: "",
                         REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                       }.SC_DISABLE_SPEEDY &&
                     "false" !==
@@ -19486,7 +19486,7 @@
                         REACT_APP_VERCEL_BRANCH_URL:
                           "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                         REACT_APP_VERCEL_GIT_COMMIT_MESSAGE: "update",
-                        REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                        REACT_APP_VERCEL_GIT_REPO_ID: "",
                         REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                       }.SC_DISABLE_SPEEDY &&
                     {
@@ -19513,7 +19513,7 @@
                       REACT_APP_VERCEL_BRANCH_URL:
                         "https://leeminhov-plhs-projects-3e2409f0.vercel.app/",
                       REACT_APP_VERCEL__COMMIT_MESSAGE: "update",
-                      REACT_APP_VERCEL_GIT_REPO_ID: "771819691",
+                      REACT_APP_VERCEL_GIT_REPO_ID: "",
                       REACT_APP_VERCEL_GIT_COMMIT_REF: "main",
                     }.SC_DISABLE_SPEEDY)
         );
@@ -24533,9 +24533,9 @@ margin-top: 20px;
           roles: ["Copy - Past", "Full Stack Copy-Past"],
           // roles: ["Mobile App Developer", "Full Stack Copy-Past"],
           description:
-            "Hello, my name is PLH, and I am a Mobile App Developer with a Bachelor's degree in Computer Science. I specialize in Mobile Development and Full-Stack Development, which enables me to contribute effectively at all layers of a project. I enjoy creating innovative and high-performance applications to enhance the user experience. I am always expanding my skills and embracing new challenges to ensure the production of high-quality software that aligns with standards.",
-          github: "https://t.me/plhscraping",
-          resume: "https://t.me/plhscraping",
+            "Hello, my name is PLH, and I am a Mobile App Developer with a Bachelor's degree in Computer Science. I specialize in Mobile Development, which enables me to contribute effectively at all layers of a project. I enjoy creating innovative and high-performance applications to enhance the user experience. I am always expanding my skills and embracing new challenges to ensure the production of high-quality software that aligns with standards.",
+          github: "https://t.me/MyWayIsNotEasy", //Open
+          resume: "https://t.me/MyWayIsNotEasy",
           linkedin: "https://t.me/plhscraping",
           twitter: "https://t.me/plhscraping",
           insta: "https://t.me/plhscraping",
@@ -24550,11 +24550,11 @@ margin-top: 20px;
                 image:
                   "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
               },
-              {
-                name: "Next Js",
-                image:
-                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-              },
+              // {
+              //   name: "Next Js",
+              //   image:
+              //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+              // },
               {
                 name: "React Js",
                 image:
@@ -24570,11 +24570,11 @@ margin-top: 20px;
                 image:
                   "https://dyltqmyl993wv.cloudfront.net/assets/stacks/node/img/node-stack-220x234.png",
               },
-              {
-                name: "Nest Js",
-                image:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/1200px-NestJS.svg.png",
-              },
+              // {
+              //   name: "Nest Js",
+              //   image:
+              //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/1200px-NestJS.svg.png",
+              // },
               {
                 name: "Spring",
                 image: "https://cdn.worldvectorlogo.com/logos/spring-3.svg",
@@ -24619,11 +24619,11 @@ margin-top: 20px;
                 image:
                   "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
               },
-              {
-                name: "Apache kafka",
-                image:
-                  "https://svn.apache.org/repos/asf/kafka/site/logos/originals/png/ICON%20-%20White%20on%20Transparent.png",
-              },
+              // {
+              //   name: "Apache kafka",
+              //   image:
+              //     "https://svn.apache.org/repos/asf/kafka/site/logos/originals/png/ICON%20-%20White%20on%20Transparent.png",
+              // },
               // {
               //   name: "Redis",
               //   image:
@@ -24639,16 +24639,16 @@ margin-top: 20px;
                 image:
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/800px-Figma-logo.svg.png",
               },
-              {
-                name: "Docker",
-                image:
-                  "https://www.docker.com/wp-content/uploads/2023/05/symbol_blue-docker-logo.png",
-              },
-              {
-                name: "AWS",
-                image:
-                  "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-              },
+              // {
+              //   name: "Docker",
+              //   image:
+              //     "https://www.docker.com/wp-content/uploads/2023/05/symbol_blue-docker-logo.png",
+              // },
+              // {
+              //   name: "AWS",
+              //   image:
+              //     "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+              // },
               {
                 name: "And More Programming",
                 image:
@@ -24735,7 +24735,7 @@ margin-top: 20px;
             img: "https://raw.githubusercontent.com/LIHOV888/git_1/refs/heads/master/images/PIKT.png",
             school: "Polytechnic Institute of Kampong Thom Province",
             date: "Jan 2024 - Jan 2025",
-            grade: "50%",
+            grade: "25%",
             desc: "I am currently studying Computer Science and Engineering at Polytechnic Institute of Kampong Thom Province. During my studies, I completed extensive courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Networks, and Computer Networks, and other programs.",
             degree: "Computer Science",
           },
@@ -25877,7 +25877,7 @@ margin-top: 20px;
                 }),
                 (0, ln.jsx)(Ui, {
                   children:
-                    "I am a Full-Stack Mobile Developer with experience working on various projects.",
+                    "I am a Full-Stack Copy Past with ChatGPT have experience working on various projects.",
                 }),
                 (0, ln.jsx)(Gi, {
                   children: (0, ln.jsx)(Ao, {
@@ -28657,7 +28657,7 @@ position: relative;
                         dull: !0,
                         href: null === r || void 0 === r ? void 0 : r.github,
                         target: "new",
-                        children: "Join Us",
+                        children: "Open",
                       }),
                       (0, ln.jsx)(Il, {
                         href: null === r || void 0 === r ? void 0 : r.webapp,

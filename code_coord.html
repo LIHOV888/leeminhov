@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Coordinate Collector by PLH</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      h2 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+      #imageContainer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 75%; /* Allow the container to take up more width */
+        height: 85%; /* Allow height to adjust based on content */
+        max-height: 80vh; /* Limit the maximum height to 80% of the viewport height */
+        overflow: hidden; /* Hide overflow */
+        border: 2px solid #ccc; /* Adds a light gray border */
+        border-radius: 8px; /* Rounds the corners */
+        background-color: white; /* Sets a white background */
+        margin-bottom: 20px; /* Space between image and buttons */
+      }
+      #uploadedImage {
+        max-width: 100%; /* Ensure the image fits within the container */
+        max-height: 100%; /* Ensure the image fits within the container */
+        cursor: crosshair;
+      }
+      .marker {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(255, 0, 0); /* Default red color for visibility */
+        border-radius: 50%;
+        pointer-events: none;
+      }
+      #controls {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px; /* Space between buttons and coordinates list */
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      #coordinatesList {
+        margin-top: 10px;
+        width: 100%;
+        max-width: 800px; /* Limit the maximum width */
+        white-space: nowrap; /* Prevent wrapping */
+        overflow-x: auto; /* Add horizontal scroll if needed */
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .coordinate {
+        display: inline-block;
+        margin-right: 10px; /* Space between coordinates */
+        padding: 5px 10px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      /* Custom file input button */
+      .file-input-container {
+        position: relative;
+        margin-bottom: 20px;
+      }
+      .file-input-container input[type="file"] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+      }
+      .file-input-button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .file-input-button:hover {
+        background-color: #218838;
+      }
+      /* Color picker styling */
+      #colorPicker {
+        margin-left: 10px;
+        padding: 5px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Image Coordinate Collector</h2>
+    <div class="file-input-container">
+      <button class="file-input-button">Choose Images</button>
+      <input type="file" id="imageInput" accept="image/*" />
+    </div>
+    <div id="imageContainer">
+      <img id="uploadedImage" src="" alt="You Need Uploaded Image" />
+    </div>
+    <div id="controls">
+      <button onclick="clearMarkers()">Clear Points</button>
+      <button onclick="copyToClipboard()">Copy to Clipboard</button>
+      <button onclick="saveCoordinates()">Save Coordinates</button>
+      <input
+        type="color"
+        id="colorPicker"
+        value="#ff0000"
+        title="Choose marker color"
+      />
+    </div>
+    <h3>Make By PLH</h3>
+
+    <script>
+      const cityCoordinates = {
+        "Kampong Thom": [
+          [150, 200],
+          [160, 210],
+          [170, 220],
+        ],
+        CityB: [
+          [200, 250],
+          [220, 260],
+          [230, 270],
+        ],
+        CityC: [
+          [300, 350],
+          [320, 360],
+          [330, 370],
+        ],
+      };
+
+      const imageContainer = document.getElementById("imageContainer");
+      const uploadedImage = document.getElementById("uploadedImage");
+      const imageInput = document.getElementById("imageInput");
+
+      const colorPicker = document.getElementById("colorPicker");
+      let coordinates = [];
+      let markerColor = colorPicker.value; // Default marker color
+
+      // Update marker color when the user selects a new color
+      colorPicker.addEventListener("input", (event) => {
+        markerColor = event.target.value;
+      });
+
+      imageContainer.addEventListener("click", (event) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        addCoordinate(x, y);
+      });
+
+      function addCoordinate(x, y) {
+        coordinates.push({ x, y });
+        const listItem = document.createElement("div");
+        listItem.className = "coordinate";
+        listItem.textContent = `(${Math.round(x)}, ${Math.round(y)})`;
+        drawPoint(x, y);
+      }
+
+      function drawPoint(x, y) {
+        const marker = document.createElement("div");
+        marker.className = "marker";
+        marker.style.left = `${x - 5}px`;
+        marker.style.top = `${y - 5}px`;
+        marker.style.backgroundColor = markerColor; // Use the selected color
+        imageContainer.appendChild(marker);
+      }
+
+      imageInput.addEventListener("change", (event) => {
+        const file = event.target.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = function (e) {
+            uploadedImage.src = e.target.result;
+          };
+          reader.readAsDataURL(file);
+        }
+      });
+
+      function clearMarkers() {
+        coordinates = [];
+
+        while (imageContainer.firstChild) {
+          imageContainer.removeChild(imageContainer.firstChild);
+        }
+        imageContainer.appendChild(uploadedImage);
+      }
+
+      function copyToClipboard() {
+        if (coordinates.length === 0) {
+          alert("No coordinates to copy!");
+          return;
+        }
+        const text = coordinates
+          .map((coord) => `${Math.round(coord.x)},${Math.round(coord.y)}`) // Round both x and y to integers
+          .join(",");
+        navigator.clipboard.writeText(text).then(() => {
+          alert("Coordinates copied to clipboard!by PLH");
+        });
+      }
+
+      function saveCoordinates() {
+        if (coordinates.length === 0) {
+          alert("No coordinates to save!");
+          return;
+        }
+        const blob = new Blob([JSON.stringify(coordinates)], {
+          type: "application/json",
+        });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "coordinates.json";
+        a.click();
+        URL.revokeObjectURL(url);
+      }
+    </script>
+  </body>
+</html>
