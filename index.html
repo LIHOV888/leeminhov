@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIHOV</title>
+    <link rel="icon" type="image/png" href="img/icon.jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="bg-[#1a1b26] text-gray-300">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-[#1a1b26]/80 backdrop-blur-sm">
+      <div class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <img
+              src="img/lihov.jpg"
+              alt="Logo"
+              class="w-10 h-10 rounded-full"
+            />
+            <span class="text-xl font-bold text-white">LIHOV</span>
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a href="#about" class="hover:text-[#00ff9d] transition-colors"
+              >About</a
+            >
+            <a href="#skills" class="hover:text-[#00ff9d] transition-colors"
+              >Skills</a
+            >
+            <a href="#experience" class="hover:text-[#00ff9d] transition-colors"
+              >Experience</a
+            >
+            <a href="#projects" class="hover:text-[#00ff9d] transition-colors"
+              >Projects</a
+            >
+            <a href="#education" class="hover:text-[#00ff9d] transition-colors"
+              >Education</a
+            >
+          </div>
+          <a
+            href="https://t.me/MyWayIsNotEasy"
+            target="_blank"
+            class="px-6 py-2 bg-[#00ff9d] text-black rounded-full font-medium hover:bg-[#00ff9d]/90 transition-colors"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="about"
+      class="min-h-screen flex items-center pt-20 bg-[#1a1b26]"
+    >
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 class="text-5xl font-bold text-white mb-4">Hi,<br /></h1>
+            <p class="text-2xl mb-4">
+              I am a
+              <span id="animated-text" class="text-[#00ff9d]"
+                >Mobile App Developer</span
+              >
+            </p>
+            <p class="text-gray-400 mb-8">
+              <!-- Hello, my name is LIHOV, and I am a Mobile App Developer with a
+              Bachelor's degree in Computer Science. I specialize in Mobile
+              Development, which enables me to contribute effectively at all
+              layers of a project. I enjoy creating innovative and
+              high-performance applications to enhance the user experience. I am
+              always expanding my skills and embracing new challenges to ensure
+              the production of high-quality software that aligns with
+              standards. -->
+            </p>
+            <a
+              href="https://t.me/MyWayIsNotEasy"
+              target="_blank"
+              class="inline-block px-8 py-3 bg-[#00ff9d] text-black rounded-full font-medium hover:bg-[#00ff9d]/90 transition-colors"
+              >Telegram</a
+            >
+          </div>
+          <div class="relative">
+            <div class="w-[400px] h-[400px] mx-auto relative hero-image group">
+              <div
+                class="absolute inset-0 rounded-full bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 blur opacity-60 animate-blob"
+              ></div>
+              <div
+                class="absolute inset-0 rounded-full bg-[#1a1b26] backdrop-blur-md bg-opacity-30 border border-[#00ff9d] shadow-lg shadow-[#00ff9d]/40 flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="img/lihov.jpg"
+                  alt="Profile"
+                  class="w-full h-full object-cover rounded-full transition-transform duration-500 group-hover:scale-105"
+                />
+                <div class="absolute inset-0 pointer-events-none">
+                  <!-- Particle effects container -->
+                  <canvas id="particle-canvas" class="w-full h-full"></canvas>
+                </div>
+              </div>
+              <p
+                class="mt-4 text-center text-[#00ff9d] font-semibold tracking-wide animate-fadeIn"
+              >
+                <!-- LIHOV - Mobile App Developer -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-[#1a1b26]">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-white text-center mb-4">Skills</h2>
+        <p class="text-center text-gray-400 mb-12">
+          Here are some of the skills I have been developing.
+        </p>
+
+        <div class="grid gap-8 skill-cards">
+          <!-- Frontend -->
+          <div class="p-6 rounded-xl border border-gray-800 bg-gray-900/50">
+            <h3 class="text-2xl font-bold text-white mb-6">Frontend</h3>
+            <!-- <div class="flex flex-wrap gap-4">
+              <div
+                class="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-800"
+              >
+                <img
+                  src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png"
+                  alt="Flutter"
+                  class="w-6 h-6"
+                />
+                <span>Flutter</span>
+              </div>
+              <div
+                class="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-800"
+              >
+                <img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+                  alt="React"
+                  class="w-6 h-6"
+                />
+                <span>React Js</span>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="p-6 rounded-xl border border-gray-800 bg-gray-900/50">
+            <h3 class="text-2xl font-bold text-white mb-6">Backend</h3>
+            <div class="flex flex-wrap gap-4">
+              <!-- <div
+                class="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-800"
+              >
+                <img
+                  src="https://dyltqmyl993wv.cloudfront.net/assets/stacks/node/img/node-stack-220x234.png"
+                  alt="Node.js"
+                  class="w-6 h-6"
+                />
+                <span>Node Js</span>
+              </div>
+              <div
+                class="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-800"
+              >
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/spring-3.svg"
+                  alt="Spring"
+                  class="w-6 h-6"
+                />
+                <span>Spring</span>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- Mobile -->
+          <div class="p-6 rounded-xl border border-gray-800 bg-gray-900/50">
+            <h3 class="text-2xl font-bold text-white mb-6">Mobile</h3>
+            <div class="flex flex-wrap gap-4">
+              <!-- <div
+                class="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-800"
+              >
+                <img
+                  src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png"
+                  alt="Flutter"
+                  class="w-6 h-6"
+                />
+                <span>Flutter</span>
+              </div>
+              <div
+                class="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-800"
+              >
+                <img
+                  src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg"
+                  alt="Kotlin"
+                  class="w-6 h-6"
+                />
+                <span>Kotlin</span>
+              </div>
+              <div
+                class="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-800"
+              >
+                <img
+                  src="https://freelogopng.com/images/all_img/1664285914google-play-logo-png.png"
+                  alt="Google Play Console"
+                  class="w-6 h-6"
+                />
+                <span>Google Play Console</span>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- Others -->
+          <div class="p-6 rounded-xl border border-gray-800 bg-gray-900/50">
+            <h3 class="text-2xl font-bold text-white mb-6">Others</h3>
+            <div class="flex flex-wrap gap-4">
+              <div
+                class="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-800"
+              >
+                <!-- <img
+                  src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+                  alt="Firebase"
+                  class="w-6 h-6"
+                /> -->
+                <img
+                  src="img/deepseek.jpg"
+                  alt="deepseek"
+                  class="w-6 h-6"
+                />
+                <span>DeepSeek</span>
+              </div>
+              <div
+                class="flex items-center space-x-2 px-4 py-2 rounded-full bg-gray-800"
+              >
+                <!-- <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/800px-Figma-logo.svg.png"
+                  alt="Figma"
+                  class="w-6 h-6"
+                /> -->
+                <img
+                  src="img/chatgpt.jpg"
+                  alt="ChatGPT"
+                  class="w-6 h-6"
+                />
+                <span>ChatGPT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-900/30">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-white text-center mb-4">
+          Experience
+        </h2>
+        <p class="text-center text-gray-400 mb-12">
+          I am a Full-Stack Copy - Past with ChatGPT and DeepSeek have experience working on
+          various projects.
+        </p>
+
+        <div class="max-w-3xl mx-auto">
+          <div class="p-6 rounded-xl border border-gray-800 bg-gray-900/50">
+            <div class="flex items-start gap-4">
+              <img
+                src="https://raw.githubusercontent.com/LIHOV888/test_2/4bf9d990522350577c96060381840d4ab027fb46/image/icon.jpg"
+                alt="Company Logo"
+                class="w-12 h-12 rounded-lg"
+              />
+              <div>
+                <h3 class="text-xl font-bold text-white">
+                  Full Stack Copy & Past
+                </h3>
+                <p class="text-gray-400">Jan 2024 - Jan 2025</p>
+                <p class="mt-4">
+                  I Learning build Mobile App, Web, Backend, Frontend, UX/UI,
+                  Database, Flutter and More Programming.
+                </p>
+                <div class="mt-4">
+                  <p class="font-semibold text-white">Skills:</p>
+                  <p>• Deep Learning- Copy & Past</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-[#1a1b26]">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-white text-center mb-4">Projects</h2>
+        <p class="text-center text-gray-400 mb-8">
+          I have projects. From web apps to android apps. Here are some of my
+          projects.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
+          <button
+            data-filter="all"
+            class="px-6 py-2 rounded-full bg-[#00ff9d] text-black font-medium transition-all"
+          >
+            All
+          </button>
+          <button
+            data-filter="web"
+            class="px-6 py-2 rounded-full bg-gray-800 hover:bg-gray-700 transition-all"
+          >
+            WEB APP
+          </button>
+          <button
+            data-filter="mobile"
+            class="px-6 py-2 rounded-full bg-gray-800 hover:bg-gray-700 transition-all"
+          >
+            Mobile app
+          </button>
+          <button
+            data-filter="backend"
+            class="px-6 py-2 rounded-full bg-gray-800 hover:bg-gray-700 transition-all"
+          >
+            Backend
+          </button>
+          <button
+            data-filter="uxui"
+            class="px-6 py-2 rounded-full bg-gray-800 hover:bg-gray-700 transition-all"
+          >
+            UX/UI
+          </button>
+          <button
+            data-filter="other"
+            class="px-6 py-2 rounded-full bg-gray-800 hover:bg-gray-700 transition-all"
+          >
+            Other
+          </button>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Web Project Card -->
+          <div
+            id="project1"
+            class="project-card rounded-xl overflow-hidden border border-gray-800 bg-gray-900/50 transition-all duration-300 cursor-pointer"
+            data-category="web"
+            tabindex="0"
+            role="button"
+            aria-pressed="false"
+            aria-label="Open project details"
+          >
+            <div class="aspect-video bg-gray-800">
+              <img
+                src="img/p1.png"
+                alt="Project 1"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">FREE</h3>
+              <p class="text-gray-400 mb-4">Release In: 2025</p>
+              <div class="flex items-center gap-2">
+                <img
+                  src="img/lihov.jpg"
+                  alt="Author"
+                  class="w-8 h-8 rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile Project Card -->
+          <div
+            id="project2"
+            class="project-card rounded-xl overflow-hidden border border-gray-800 bg-gray-900/50 transition-all duration-300 cursor-pointer"
+            data-category="mobile"
+            tabindex="0"
+            role="button"
+            aria-pressed="false"
+            aria-label="Open project details"
+          >
+            <div class="aspect-video bg-gray-800">
+              <img
+                src="img/p1.png"
+                alt="Project 1"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">FREE</h3>
+              <p class="text-gray-400 mb-4">Release In: May-2025</p>
+              <div class="flex items-center gap-2">
+                <img
+                  src="img/lihov.jpg"
+                  alt="Author"
+                  class="w-8 h-8 rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Project Card -->
+          <div
+            id="project3"
+            class="project-card rounded-xl overflow-hidden border border-gray-800 bg-gray-900/50 transition-all duration-300 cursor-pointer"
+            data-category="backend"
+            tabindex="0"
+            role="button"
+            aria-pressed="false"
+            aria-label="Open project details"
+          >
+            <div class="aspect-video bg-gray-800">
+              <img
+                src="img/p1.png"
+                alt="Project 1"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">FREE</h3>
+              <p class="text-gray-400 mb-4">Release In: May-2025</p>
+              <div class="flex items-center gap-2">
+                <img
+                  src="img/lihov.jpg"
+                  alt="Author"
+                  class="w-8 h-8 rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- UX/UI Project Card -->
+          <div
+            id="project4"
+            class="project-card rounded-xl overflow-hidden border border-gray-800 bg-gray-900/50 transition-all duration-300 cursor-pointer"
+            data-category="uxui"
+            tabindex="0"
+            role="button"
+            aria-pressed="false"
+            aria-label="Open project details"
+          >
+            <div class="aspect-video bg-gray-800">
+              <img
+                src="img/p1.png"
+                alt="Project 1"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">FREE</h3>
+              <p class="text-gray-400 mb-4">Release In: May-2025</p>
+              <div class="flex items-center gap-2">
+                <img
+                  src="img/lihov.jpg"
+                  alt="Author"
+                  class="w-8 h-8 rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Other Project Card -->
+          <div
+            id="project5"
+            class="project-card rounded-xl overflow-hidden border border-gray-800 bg-gray-900/50 transition-all duration-300 cursor-pointer"
+            data-category="other"
+            tabindex="0"
+            role="button"
+            aria-pressed="false"
+            aria-label="Open project details"
+          >
+            <div class="aspect-video bg-gray-800">
+              <img
+                src="img/p1.png"
+                alt="Project 1"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">FREE</h3>
+              <p class="text-gray-400 mb-4">Release In: May-2025</p>
+              <div class="flex items-center gap-2">
+                <img
+                  src="img/lihov.jpg"
+                  alt="Author"
+                  class="w-8 h-8 rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-gray-900/30">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-white text-center mb-4">
+          Education
+        </h2>
+        <p class="text-center text-gray-400 mb-12">
+          The details are as follows.
+        </p>
+
+        <div class="max-w-3xl mx-auto">
+          <div class="p-6 rounded-xl border border-gray-800 bg-gray-900/50">
+            <div class="flex items-start gap-4">
+              <img
+                src="img/PIKT.png"
+                alt="University Logo"
+                class="w-12 h-12 rounded-lg"
+              />
+              <div>
+                <h3 class="text-xl font-bold text-white">
+                  Polytechnic Institute of Kampong Thom Province
+                </h3>
+                <p class="text-gray-400">Computer Science</p>
+                <p class="text-gray-400">Jan 2024 - Jan 2025</p>
+                <p class="mt-2">
+                  <span class="font-semibold text-white">Grade:</span> 25%
+                </p>
+                <p class="mt-4">
+                  I am currently studying Computer Science and Engineering at
+                  Polytechnic Institute of Kampong Thom Province. During my
+                  studies, I completed extensive courses in Data Structures,
+                  Algorithms, Object-Oriented Programming, Database Management
+                  Systems, Operating Networks, and Computer Networks, and other
+                  programs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-gray-800">
+      <div class="container mx-auto px-6">
+        <div class="text-center">
+          <h3 class="text-[#00ff9d] font-bold text-xl mb-4">LIHOV</h3>
+          <div class="flex justify-center space-x-8 mb-8">
+            <a href="#about" class="hover:text-[#00ff9d] transition-colors"
+              >About</a
+            >
+            <a href="#skills" class="hover:text-[#00ff9d] transition-colors"
+              >Skills</a
+            >
+            <a href="#experience" class="hover:text-[#00ff9d] transition-colors"
+              >Experience</a
+            >
+            <a href="#projects" class="hover:text-[#00ff9d] transition-colors"
+              >Projects</a
+            >
+            <a href="#education" class="hover:text-[#00ff9d] transition-colors"
+              >Education</a
+            >
+          </div>
+          <div class="flex justify-center space-x-6 mb-8">
+            <a
+              href="https://web.facebook.com/LIHOVsniffer"
+              class="text-gray-400 hover:text-[#00ff9d]"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://t.me/MyWayIsNotEasy"
+              class="text-gray-400 hover:text-[#00ff9d]"
+            >
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/li-hov-223453361"
+              class="text-gray-400 hover:text-[#00ff9d]"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <!-- <a href="#" class="text-gray-400 hover:text-[#00ff9d]">
+              <i class="fab fa-instagram"></i>
+            </a> -->
+          </div>
+          <p class="text-gray-400">© 2025 LIHOV. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js" defer></script>
+    <script src="modal.js" defer></script>
+  </body>
+</html>
