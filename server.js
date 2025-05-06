@@ -20,8 +20,8 @@ const limiter = rateLimit({
 app.use(limiter);
 
 // Body parser
-app.use(express.json({ limit: "10kb" })); // Body limit is 10kb
-app.use(express.urlencoded({ extended: true, limit: "10kb" }));
+app.use(express.json({ limit: "100kb" })); // Body limit is 10kb
+app.use(express.urlencoded({ extended: true, limit: "100kb" }));
 
 // Data sanitization against XSS
 app.use(xss());
